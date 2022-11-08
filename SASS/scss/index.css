@@ -1,0 +1,242 @@
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(210deg, 60%, 98%);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header_notif {
+  padding-top: 15px;
+  text-align: center;
+  font-size: larger;
+  font-weight: 700;
+  margin-left: 8px;
+}
+.header_notif span {
+  background: hsl(219deg, 85%, 26%);
+  color: white;
+  border: solid hsl(219deg, 85%, 26%) 2px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header_text {
+  text-align: center;
+  color: hsl(219deg, 12%, 42%);
+  margin-right: 8px;
+}
+.header_text:hover {
+  color: hsl(224deg, 21%, 14%);
+  cursor: pointer;
+}
+
+.highlight {
+  display: flex;
+  flex-direction: row;
+  background: hsl(205deg, 33%, 90%);
+  border: solid hsl(211deg, 68%, 94%) 2px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.highlight_image {
+  width: 50px;
+  height: 50px;
+}
+.highlight_image img {
+  width: 100%;
+  height: 100%;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.highlight_name {
+  margin-left: 35px;
+  margin-top: 15px;
+  color: hsl(219deg, 14%, 63%);
+}
+.highlight_name .colur {
+  color: hsl(219deg, 12%, 42%);
+  margin-left: 5px;
+}
+.highlight_name .colur:hover {
+  cursor: pointer;
+  color: hsl(219deg, 85%, 26%);
+}
+.highlight_name .color {
+  color: hsl(219deg, 85%, 26%);
+}
+.highlight_name .color:hover {
+  cursor: pointer;
+  color: hsl(224deg, 21%, 14%);
+}
+.highlight span {
+  font-weight: bolder;
+  color: black;
+  font-size: large;
+  padding-right: 5px;
+}
+.highlight span:hover {
+  cursor: pointer;
+  color: hsl(219deg, 85%, 26%);
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.message .part {
+  display: flex;
+  flex-direction: row;
+}
+.message .part span {
+  font-weight: bolder;
+  color: black;
+  font-size: large;
+}
+.message_image {
+  width: 50px;
+  height: 50px;
+}
+.message_image img {
+  width: 100%;
+  height: 100%;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.message_name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-top: 15px;
+  color: hsl(219deg, 14%, 63%);
+}
+.message_reply {
+  border: solid hsl(219deg, 14%, 63%) 2px;
+  border-radius: 5px;
+  margin-left: 70px;
+  margin-right: 10px;
+  padding: 5px;
+  color: hsl(219deg, 14%, 63%);
+}
+.message_reply:hover {
+  background: hsl(211deg, 68%, 94%);
+  cursor: pointer;
+}
+
+.double {
+  display: flex;
+  flex-direction: row;
+}
+.double span {
+  font-weight: bolder;
+  color: black;
+  font-size: large;
+  padding-right: 5px;
+}
+.double span:hover {
+  cursor: pointer;
+  color: hsl(219deg, 85%, 26%);
+}
+.double_image {
+  width: 50px;
+  height: 50px;
+}
+.double_image img {
+  width: 100%;
+  height: 100%;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.double_name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-top: 15px;
+  color: hsl(219deg, 14%, 63%);
+}
+.double_chess {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.double_chess img {
+  width: 100%;
+  height: 100%;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+.bottom_image {
+  width: 50px;
+  height: 50px;
+}
+.bottom_image img {
+  width: 100%;
+  height: 100%;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.bottom_name {
+  margin-left: 35px;
+  margin-top: 15px;
+  color: hsl(219deg, 14%, 63%);
+}
+.bottom span {
+  font-weight: bolder;
+  color: black;
+  font-size: large;
+  padding-right: 5px;
+}
+.bottom span:hover {
+  cursor: pointer;
+  color: hsl(219deg, 85%, 26%);
+}
+.bottom .color {
+  color: hsl(219deg, 12%, 42%);
+  padding-left: 5px;
+}
+
+.time {
+  margin-top: -10px;
+}
+
+@media (min-width: 760px) {
+  body {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .highlight {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .message {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .double {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .double_chess {
+    margin-left: 50%;
+  }
+  .bottom {
+    width: 70%;
+    margin-left: 15%;
+  }
+}/*# sourceMappingURL=index.css.map */
