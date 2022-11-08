@@ -178,6 +178,7 @@ body {
   display: flex;
   flex-direction: row;
   margin: 5px;
+  margin-bottom: 10px;
 }
 .bottom_image {
   width: 50px;
